@@ -35,7 +35,7 @@ public class AccountController {
 	
 	@GetMapping("/{id}")
 	public List<Map> getAccountInfo() {
-		return accountService.getAccountInfo();
+		return accountService.getAccountInfo(null);
 	}
 	
 	@PostMapping

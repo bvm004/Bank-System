@@ -1,12 +1,6 @@
 package com.lq.bank.model;
 
-
-enum AccountType{
-	Checking,
-	Savings,
-	Salary,
-	Credit
-}
+import com.lq.bank.enums.AccountType;
 
 public class Account {
 

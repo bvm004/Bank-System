@@ -57,8 +57,4 @@ public class Customer {
 		this.branch = branch;
 	}
 
-
-	
-	
-	
 }
